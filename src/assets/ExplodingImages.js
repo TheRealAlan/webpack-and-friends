@@ -43,7 +43,7 @@ export default class ExplodingImages {
 
     addExplosions() {
         const { splosions } = this.selectors;
-        
+
         for (let i = 0; i < this.explosionCount; i++) {
             let tempImage = new Image();
             tempImage.src = explod;
