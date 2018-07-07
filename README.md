@@ -14,7 +14,7 @@ npm install
 
 ### Commands
 ```bash
-# Run in dev mode
+# Run in dev mode, view at http://localhost:8080/
 npm start
 
 # Build bundle for production
