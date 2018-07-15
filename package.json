@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production --optimize-minimize",
-    "build:preview": "webpack --mode production --optimize-minimize && open ./dist/index.html"
+    "build:preview": "webpack --mode production --optimize-minimize && open ./dist/index.html",
+    "clean": "rm -rf ./dist"
   },
   "author": "",
   "license": "ISC",
