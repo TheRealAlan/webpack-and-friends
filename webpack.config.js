@@ -3,14 +3,12 @@ const path = require("path");
 module.exports = {
 
     /**
-     * Default:
-     * main: './src/index.js'
+     * Default: './src/index.js'
      */
     entry: "./src/assets/index.js",
 
     /**
-     * Default:
-     * path: './dist'
+     * Default: './dist/[name].js'
      */
     output: {
         filename: "./assets/bundle.js",
