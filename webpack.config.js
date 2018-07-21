@@ -8,16 +8,27 @@ const WebpackMonitor = require('webpack-monitor');
 module.exports = {
 
     /**
+     * Entry
+     * =====
      * Default: './src/index.js'
      */
     entry: "./src/assets/index.js",
 
     /**
+     * Output
+     * ======
      * Default: './dist/[name].js'
      */
     output: {
         filename: "./assets/bundle.js",
         path: path.resolve(__dirname, "dist"),
+    },
+
+    /**
+     * Webpack Dev Server
+     */
+    devServer: {
+        contentBase: "./src"
     },
 
     /**
