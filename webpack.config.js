@@ -28,7 +28,11 @@ module.exports = {
      * Webpack Dev Server
      */
     devServer: {
-        contentBase: "./src"
+        contentBase: "./src",
+        overlay: {
+            warnings: false,
+            errors: true
+        },
     },
 
     /**
@@ -129,7 +133,7 @@ module.exports = {
     plugins: [
         new WebpackMonitor({
             capture: true,
-            launch: true,
+            launch: false,
         }),
     ],
 };
