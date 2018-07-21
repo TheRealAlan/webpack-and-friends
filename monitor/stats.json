@@ -1,0 +1,275 @@
+[
+  {
+    "timeStamp": 1532186519660,
+    "time": 2813,
+    "hash": "1f81879c19e9b180a4c4",
+    "errors": [],
+    "size": 5700687,
+    "assets": [
+      {
+        "name": "assets/images/explod.2b2b0765.gif",
+        "chunks": [],
+        "size": 33254
+      },
+      {
+        "name": "assets/fonts/JollyGoodSans-Basic-webfont.b86c18a6.woff",
+        "chunks": [],
+        "size": 32112
+      },
+      {
+        "name": "assets/images/YAS.9af78221.gif",
+        "chunks": [],
+        "size": 1261251
+      },
+      {
+        "name": "assets/images/babel.3a1d8d55.svg",
+        "chunks": [],
+        "size": 15137
+      },
+      {
+        "name": "assets/images/cat_coding.e8a69aee.gif",
+        "chunks": [],
+        "size": 2134987
+      },
+      {
+        "name": "assets/fonts/JollyGoodSans-Basic-webfont.9064bdd3.woff2",
+        "chunks": [],
+        "size": 27472
+      },
+      {
+        "name": "assets/images/mindblown.803b115b.gif",
+        "chunks": [],
+        "size": 1576908
+      },
+      {
+        "name": "assets/images/stars.ddd7111d.gif",
+        "chunks": [],
+        "size": 221371
+      },
+      {
+        "name": "assets/images/webpack.f6cd9a7e.png",
+        "chunks": [],
+        "size": 17279
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 1201
+      },
+      {
+        "name": "./assets/bundle.js",
+        "chunks": [
+          "main"
+        ],
+        "size": 379715,
+        "miniSize": 378769,
+        "minified": false
+      }
+    ],
+    "chunks": [
+      {
+        "size": 346207,
+        "files": [
+          "./assets/bundle.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/ansi-html/index.js",
+            "size": 4263,
+            "id": "./node_modules/ansi-html/index.js"
+          },
+          {
+            "name": "./node_modules/css-loader!./src/assets/style.css",
+            "size": 2291,
+            "id": "./node_modules/css-loader/index.js!./src/assets/style.css"
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": "./node_modules/css-loader/lib/css-base.js"
+          },
+          {
+            "name": "./node_modules/css-loader/lib/url/escape.js",
+            "size": 448,
+            "id": "./node_modules/css-loader/lib/url/escape.js"
+          },
+          {
+            "name": "./node_modules/events/events.js",
+            "size": 8328,
+            "id": "./node_modules/events/events.js"
+          },
+          {
+            "name": "./node_modules/html-entities/index.js",
+            "size": 231,
+            "id": "./node_modules/html-entities/index.js"
+          },
+          {
+            "name": "./node_modules/html-entities/lib/html4-entities.js",
+            "size": 6587,
+            "id": "./node_modules/html-entities/lib/html4-entities.js"
+          },
+          {
+            "name": "./node_modules/html-entities/lib/html5-entities.js",
+            "size": 48986,
+            "id": "./node_modules/html-entities/lib/html5-entities.js"
+          },
+          {
+            "name": "./node_modules/html-entities/lib/xml-entities.js",
+            "size": 2993,
+            "id": "./node_modules/html-entities/lib/xml-entities.js"
+          },
+          {
+            "name": "./node_modules/loglevel/lib/loglevel.js",
+            "size": 7862,
+            "id": "./node_modules/loglevel/lib/loglevel.js"
+          },
+          {
+            "name": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
+            "size": 14670,
+            "id": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js"
+          },
+          {
+            "name": "./node_modules/querystring-es3/decode.js",
+            "size": 2510,
+            "id": "./node_modules/querystring-es3/decode.js"
+          },
+          {
+            "name": "./node_modules/querystring-es3/encode.js",
+            "size": 2544,
+            "id": "./node_modules/querystring-es3/encode.js"
+          },
+          {
+            "name": "./node_modules/querystring-es3/index.js",
+            "size": 127,
+            "id": "./node_modules/querystring-es3/index.js"
+          },
+          {
+            "name": "./node_modules/smoothscroll/smoothscroll.js",
+            "size": 4427,
+            "id": "./node_modules/smoothscroll/smoothscroll.js"
+          },
+          {
+            "name": "./node_modules/sockjs-client/dist/sockjs.js",
+            "size": 180708,
+            "id": "./node_modules/sockjs-client/dist/sockjs.js"
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 10006,
+            "id": "./node_modules/style-loader/lib/addStyles.js"
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3013,
+            "id": "./node_modules/style-loader/lib/urls.js"
+          },
+          {
+            "name": "./node_modules/url/url.js",
+            "size": 23317,
+            "id": "./node_modules/url/url.js"
+          },
+          {
+            "name": "./node_modules/url/util.js",
+            "size": 314,
+            "id": "./node_modules/url/util.js"
+          },
+          {
+            "name": "(webpack)-dev-server/client?http://localhost:8080",
+            "size": 7934,
+            "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:8080"
+          },
+          {
+            "name": "(webpack)-dev-server/client/overlay.js",
+            "size": 3671,
+            "id": "./node_modules/webpack-dev-server/client/overlay.js"
+          },
+          {
+            "name": "(webpack)-dev-server/client/socket.js",
+            "size": 1080,
+            "id": "./node_modules/webpack-dev-server/client/socket.js"
+          },
+          {
+            "name": "(webpack)-dev-server/node_modules/ansi-regex/index.js",
+            "size": 135,
+            "id": "./node_modules/webpack-dev-server/node_modules/ansi-regex/index.js"
+          },
+          {
+            "name": "(webpack)-dev-server/node_modules/strip-ansi/index.js",
+            "size": 161,
+            "id": "./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js"
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 509,
+            "id": "./node_modules/webpack/buildin/global.js"
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 519,
+            "id": "./node_modules/webpack/buildin/module.js"
+          },
+          {
+            "name": "(webpack)/hot sync nonrecursive ^\\.\\/log$",
+            "size": 170,
+            "id": "./node_modules/webpack/hot sync ^\\.\\/log$"
+          },
+          {
+            "name": "(webpack)/hot/emitter.js",
+            "size": 77,
+            "id": "./node_modules/webpack/hot/emitter.js"
+          },
+          {
+            "name": "(webpack)/hot/log.js",
+            "size": 1052,
+            "id": "./node_modules/webpack/hot/log.js"
+          },
+          {
+            "name": "./src/assets/ExplodingImages.js",
+            "size": 3062,
+            "id": "./src/assets/ExplodingImages.js"
+          },
+          {
+            "name": "./src/assets/fonts/JollyGoodSans-Basic-webfont.woff",
+            "size": 100,
+            "id": "./src/assets/fonts/JollyGoodSans-Basic-webfont.woff"
+          },
+          {
+            "name": "./src/assets/fonts/JollyGoodSans-Basic-webfont.woff2",
+            "size": 101,
+            "id": "./src/assets/fonts/JollyGoodSans-Basic-webfont.woff2"
+          },
+          {
+            "name": "./src/assets/images/explod.gif",
+            "size": 79,
+            "id": "./src/assets/images/explod.gif"
+          },
+          {
+            "name": "multi (webpack)-dev-server/client?http://localhost:8080 ./src/assets/index.js",
+            "size": 40,
+            "id": 0
+          },
+          {
+            "name": "./src/assets/images/stars.gif",
+            "size": 78,
+            "id": "./src/assets/images/stars.gif"
+          },
+          {
+            "name": "./src/assets/index.js",
+            "size": 414,
+            "id": "./src/assets/index.js"
+          },
+          {
+            "name": "./src/assets/style.css",
+            "size": 1084,
+            "id": "./src/assets/style.css"
+          },
+          {
+            "name": "./src/index.html",
+            "size": 56,
+            "id": "./src/index.html"
+          }
+        ]
+      }
+    ]
+  }
+]

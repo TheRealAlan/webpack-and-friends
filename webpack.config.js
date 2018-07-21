@@ -1,5 +1,10 @@
 const path = require("path");
 
+/**
+ * Plugins
+ */
+const WebpackMonitor = require('webpack-monitor');
+
 module.exports = {
 
     /**
@@ -108,9 +113,12 @@ module.exports = {
     },
 
     /**
-     * Webpack Dev Server
+     * Plugins
      */
-    devServer: {
-        contentBase: "./src"
-    }
+    plugins: [
+        new WebpackMonitor({
+            capture: true,
+            launch: true,
+        }),
+    ],
 };
