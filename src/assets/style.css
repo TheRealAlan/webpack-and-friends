@@ -21,6 +21,11 @@ body {
     font-family: "JollyGoodSans-Basic", Arial, sans-serif;
     text-align: center;
     background: url("./images/stars.gif");
+    transition: all 4s linear;
+    perspective: 1000px;
+    backface-visibility: visible;
+    /* Play with HMR */
+    transform: rotate3d(1,1,1,360deg);
 }
 
 img {

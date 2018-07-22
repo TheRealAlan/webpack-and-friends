@@ -1,9 +1,10 @@
 const path = require("path");
+const webpack = require('webpack');
 
 /**
  * Plugins
  */
-const WebpackMonitor = require('webpack-monitor');
+const DashboardPlugin = require('webpack-dashboard/plugin');
 
 module.exports = {
 
@@ -29,6 +30,7 @@ module.exports = {
      */
     devServer: {
         contentBase: "./src",
+        hot: true,
         overlay: {
             warnings: false,
             errors: true
@@ -131,9 +133,7 @@ module.exports = {
      * Plugins
      */
     plugins: [
-        new WebpackMonitor({
-            capture: true,
-            launch: false,
-        }),
+        new DashboardPlugin(),
+        new webpack.HotModuleReplacementPlugin(),
     ],
 };

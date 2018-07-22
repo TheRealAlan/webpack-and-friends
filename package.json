@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
+    "dashboard": "webpack-dashboard -- webpack-dev-server --mode development",
     "build": "webpack --mode production --optimize-minimize",
+    "build:dashboard": "webpack-dashboard -- webpack --mode production --optimize-minimiz",
     "build:preview": "webpack --mode production --optimize-minimize && open ./dist/index.html",
     "clean": "rm -rf ./dist"
   },
@@ -23,8 +25,8 @@
     "style-loader": "^0.21.0",
     "webpack": "^4.16.1",
     "webpack-cli": "^2.1.5",
-    "webpack-dev-server": "^3.1.4",
-    "webpack-monitor": "^1.0.14"
+    "webpack-dashboard": "^2.0.0",
+    "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
     "smoothscroll": "^0.4.0"
